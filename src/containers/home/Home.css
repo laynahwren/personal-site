@@ -61,6 +61,7 @@
     width: 100%;
     justify-content: center;
     margin-top: 1rem;
+    align-items: center;
 }
 
 .profile-pic {
@@ -69,4 +70,11 @@
     width: 15.5rem;
     border-radius: 100%;
     border: 3px solid rgb(93, 63, 211);
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.link-icon {
+    display: flex;
+    color: white;
 }

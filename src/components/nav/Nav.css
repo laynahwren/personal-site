@@ -1,0 +1,11 @@
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+}
+
+/* .navbar {
+    background-color: aqua;
+} */

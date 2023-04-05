@@ -1,12 +1,15 @@
 import { AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai'
+import SideRibbon from '../../components/ribbon/Ribbon'
 import ProfilePic from '../../assets/me.jpg'
 import './Home.css'
 
 const HomePage = () => {
     return (
         <div className="home-container">
-            <div id='hello-ribbon' className='intro-ribbon'>Hello</div>
-            <div id='name-ribbon' className='intro-ribbon'>My name is Laynah Varnum</div>
+            <div id='hello-ribbon'>
+                <SideRibbon text='Hello' />
+            </div>
+            <SideRibbon text='My name is Laynah Varnum' />
             <div className='summary-container'>
                 <div className='summary'>
                     <div className='title'>I am a <div className='job-title'>&nbsp;Front-end Developer</div></div>

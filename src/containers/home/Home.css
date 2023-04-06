@@ -30,7 +30,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    font-size: 2rem;
+    font-size: clamp(1rem, 5vw, 2rem);
     margin-bottom: 1rem;
 }
 
@@ -43,7 +43,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 5vw, 1.25rem);
 }
 
 .picture-container {
@@ -75,15 +75,5 @@
 @media only screen and (max-width: 460px) {
     .picture-container {
         display: block;
-    }
-}
-
-@media only screen and (max-width: 620px) {
-    .title {
-        font-size: 1.5rem;
-    }
-
-    .text {
-        font-size: 1rem;
     }
 }

@@ -1,7 +1,8 @@
 .stack-container {
-    height: auto;
+    height: 100%;
     background-color: black;
     padding-top: 2rem;
+    overflow: auto;
 }
 
 .skills-container {

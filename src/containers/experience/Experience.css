@@ -1,0 +1,71 @@
+.experience-container {
+    height: 100%;
+    background-color: black;
+    padding-top: 2rem;
+    overflow: auto;
+}
+
+.work-container {
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+}
+
+svg {
+    color: rgb(248, 249, 250);
+}
+
+.work-title {
+    color: rgb(248, 249, 250);
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.work-dates {
+    color: rgb(248, 249, 250);
+    font-size: 1rem;
+}
+
+.work-summary {
+    background-color: rgb(248, 249, 250);
+    color: black;
+    opacity: 95%;
+    padding: 1.5rem;
+    width: 50rem;
+    border-radius: 0 50px 0 50px;
+    margin-right: 1rem;
+}
+
+a svg {
+    color: black;
+}
+
+.resume-container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 249, 250);
+    color: black;
+    opacity: 95%;
+    padding: 1rem;
+    border-radius: 100%;
+    height: min-content;
+    border: 3px solid rgb(93, 63, 211);
+}
+
+.work-summary-container {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.code-link {
+    display: flex;
+    justify-content: center;
+}
+
+.code-link a {
+    color: rgb(93, 63, 211)
+}

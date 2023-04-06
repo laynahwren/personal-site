@@ -6,6 +6,8 @@
 }
 
 .work-container {
+    display: grid;
+    justify-content: center;
     padding: 1rem 2rem 2rem 2rem;
 }
 

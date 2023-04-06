@@ -1,5 +1,6 @@
 .home-container {
-    background-image: url('../../assets/background.jpg' ); /* Image by rawpixel.com on Freepik */
+    background-image: url('../../assets/background.jpg');
+    /* Image by rawpixel.com on Freepik */
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,7 +15,7 @@
 .summary-container {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    padding: 2rem;
 }
 
 .summary {
@@ -69,4 +70,20 @@
 
 .link-icon svg {
     color: rgb(248, 249, 250);
+}
+
+@media only screen and (max-width: 460px) {
+    .picture-container {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
 }

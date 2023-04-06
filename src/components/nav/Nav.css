@@ -10,3 +10,7 @@
     color: rgb(93, 63, 211);
     font-weight: bold;
 }
+
+.navbar {
+    box-shadow: 0 2px rgba(93, 63, 211, 0.7);
+}

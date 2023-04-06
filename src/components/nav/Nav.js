@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Nav.css'
 
 const NavBar = () => {
@@ -9,9 +10,9 @@ const NavBar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-link" aria-current="page" href="/">Home</a>
-                        <a className="nav-link" href="/stack">Tech Stack</a>
-                        <a className="nav-link" href="/experience">Experience</a>
+                        <Link className="nav-link" to="/">Home</Link>
+                        <Link className="nav-link" to="/stack">Tech Stack</Link>
+                        <Link className="nav-link" to="/experience">Experience</Link>
                     </div>
                 </div>
             </div>

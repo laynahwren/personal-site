@@ -11,7 +11,7 @@ const ProgressBar = (props) => {
 }
 
 const getPercent = (years) => {
-    return (years / 3) * 100
+    return (years / 2) * 100
 }
 
 export default ProgressBar

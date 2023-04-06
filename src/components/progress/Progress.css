@@ -1,5 +1,6 @@
 .progress {
-    height: 1.5rem;
+    height: 1.25rem;
+    background-color: black;
 }
 
 .progress-bar {

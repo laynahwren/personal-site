@@ -5,3 +5,8 @@
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1rem;
 }
+
+.navbar-nav .nav-link.active {
+    color: rgb(93, 63, 211);
+    font-weight: bold;
+}

@@ -6,8 +6,6 @@
 }
 
 .work-container {
-    display: grid;
-    justify-content: center;
     padding: 1rem 2rem 2rem 2rem;
 }
 
@@ -34,31 +32,47 @@ svg {
 .work-summary {
     background-color: rgb(248, 249, 250);
     color: black;
-    opacity: 95%;
+    opacity: 90%;
+    padding: 1.5rem;
+    max-width: 50rem;
+    border-radius: 0 50px 0 50px;
+}
+
+.tech-stack-summary {
+    background-color: rgb(248, 249, 250);
+    color: black;
+    opacity: 90%;
     padding: 1.5rem;
     width: 50rem;
-    border-radius: 0 50px 0 50px;
-    margin-right: 1rem;
+    border-radius: 50px 0 50px 0;
 }
 
 a svg {
     color: black;
 }
 
-.resume-container {
+.material-container {
     display: flex;
     align-items: center;
     background-color: rgb(248, 249, 250);
     color: black;
-    opacity: 95%;
-    padding: 1rem;
+    opacity: 90%;
+    padding: 0.5rem;
     border-radius: 100%;
     height: min-content;
     border: 3px solid rgb(93, 63, 211);
+    margin-left: 1rem;
 }
 
 .work-summary-container {
     display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.tech-stack-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: 1rem;
 }
@@ -70,4 +84,13 @@ a svg {
 
 .code-link a {
     color: rgb(93, 63, 211)
+}
+
+.skill-container {
+    margin-bottom: 2rem;
+}
+
+.skill-title {
+    color: black;
+    font-size: 1.25rem;
 }

@@ -76,4 +76,12 @@
     .picture-container {
         display: block;
     }
+
+    .profile-pic {
+        margin: 1rem;
+    }
+
+    .link-icon {
+        justify-content: center;
+    }
 }

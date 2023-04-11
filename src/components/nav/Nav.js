@@ -17,10 +17,14 @@ const NavBar = () => {
                             className={active === 'home' ? 'nav-link active' : 'nav-link'}
                             to="/"
                             onClick={() => setActive('home')}>Home</Link>
-                        <Link 
-                        className={active === 'experience' ? 'nav-link active' : 'nav-link'} 
-                        to="/experience"
-                        onClick={() => setActive('experience')}>Experience</Link>
+                        <Link
+                            className={active === 'experience' ? 'nav-link active' : 'nav-link'}
+                            to="/experience"
+                            onClick={() => setActive('experience')}>Experience</Link>
+                        <Link
+                            className={active === 'project' ? 'nav-link active' : 'nav-link'}
+                            to="/project"
+                            onClick={() => setActive('project')}>Current Project</Link>
                     </div>
                 </div>
             </div>

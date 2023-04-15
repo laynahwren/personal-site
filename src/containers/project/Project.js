@@ -31,6 +31,7 @@ const CurrentProject = () => {
                         <li>NodeJS</li>
                         <li>Axios</li>
                         <li>Express</li>
+                        <li>Passport</li>
                     </ul>
                 </div>
             </div>

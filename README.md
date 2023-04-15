@@ -6,3 +6,4 @@ Designed as a digital resume.
 - HTML
 - CSS
 - JavaScript
+- Bootstrap

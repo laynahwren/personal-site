@@ -20,7 +20,7 @@ const WorkExperience = () => {
                         </a>
                     </div>
                 </div>
-                <div className='work-dates'>June 2021 - Present</div>
+                <div className='work-dates'>June 2021 - May 2023</div>
                 <div className='work-summary-container'>
                     <div className='work-summary'>
                         <div style={{ marginBottom: '1rem' }}>

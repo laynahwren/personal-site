@@ -21,7 +21,7 @@ const HomePage = () => {
                             <AiOutlineGithub size={75} />
                         </a>
                         <img className='profile-pic' src={ProfilePic} alt='me'></img>
-                        <a className='link-icon' href='https://www.linkedin.com/in/laynah-varnum-6a6ba3178/' target="_blank" rel='noreferrer'>
+                        <a className='link-icon' href='https://www.linkedin.com/in/laynah-varnum/' target="_blank" rel='noreferrer'>
                             <AiFillLinkedin size={75} />
                         </a>
                     </div>

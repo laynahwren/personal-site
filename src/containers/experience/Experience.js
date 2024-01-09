@@ -24,10 +24,10 @@ const WorkExperience = () => {
                 <div className='work-summary-container'>
                     <div className='work-summary'>
                         <div style={{ marginBottom: '1rem' }}>
-                            My time at IBM has afforded me the opportunity to work on diverse teams in an agile environment to develop
+                            My time at IBM afforded me the opportunity to work on diverse teams in an agile environment to develop
                             complex applications and user-centric UIs.
                         </div>
-                        I have gained valuable skills working alongside designers and product managers to create reusable components,
+                        I gained valuable skills working alongside designers and product managers creating reusable components,
                         new applications, and thorough tests.
                     </div>
                 </div>

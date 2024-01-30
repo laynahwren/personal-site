@@ -12,7 +12,7 @@ const HomePage = () => {
             <SideRibbon text='My name is Laynah Varnum' />
             <div className='summary-container'>
                 <div className='summary'>
-                    <div className='title'>I am a <div className='job-title'>&nbsp;Front-end Developer</div></div>
+                    <div className='title'>I am a <div className='job-title'>&nbsp;Front-End Developer</div></div>
                     <div className='text'>
                         I love creating clean, beautiful UI experiences that put the user first.
                     </div>

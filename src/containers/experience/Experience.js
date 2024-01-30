@@ -13,7 +13,7 @@ const WorkExperience = () => {
             <div className='work-container'>
                 <div className='title-container'>
                     <SiIbm size={75} />
-                    <div className='work-title'>IBM / Front-end Developer</div>
+                    <div className='work-title'>IBM / Front-End Developer</div>
                     <div className='material-container'>
                         <a href={Resume} target='_blank' rel='noreferrer'>
                             <AiFillFilePdf size={40} />
